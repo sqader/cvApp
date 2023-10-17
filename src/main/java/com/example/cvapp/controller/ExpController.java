@@ -33,21 +33,9 @@ public class ExpController {
         return new RedirectView("/experience");
     }
 
-//    @GetMapping
-//    public String getExperience() {
-//        return "experience/experience";
-//    }
 
-
-//
-//
-//    @GetMapping
-//    public List<ExpModel> getAllExperience() {
-//        return expService.getAllExperience();
-//    }
-//
-//    @PostMapping
-//    public ExpModel addExperience(@RequestBody ExpModel expModel) {
-//        return expService.addExperience(expModel);
-//    }
+    @PostMapping
+    public ExpModel addExperience(@RequestBody ExpModel expModel) {
+        return expService.addExperience(expModel);
+    }
 }

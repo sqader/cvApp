@@ -24,8 +24,7 @@ public class ExpService {
         expRepository.save(exp);
     }
 
-//    public ExpModel addExperience(ExpModel expModel) {
-//        return expRepository.save(expModel);
-//
-//    }
+    public ExpModel addExperience(ExpModel expModel) {
+        return expRepository.save(expModel);
+    }
 }

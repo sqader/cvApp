@@ -3089,6 +3089,16 @@ textarea.form-control-lg {
   background-color: #6c757d;
   border-color: #6c757d;
 }
+.btn-success-small {
+  display: block;
+  width: 100px; /* Dostosuj szerokość przycisku według potrzeb */
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+  margin: 10px auto; /* Dostosuj marginesy, aby umieścić przycisk na dole */
+  text-align: center;
+  border-radius: 5px;
+}
 
 .btn-success {
   color: #fff;
